@@ -15,7 +15,7 @@
     display: flex;
 }
 .head2{
-    background: url(Backgroound\ Picture.png) no-repeat center/cover;
+    background: url(/image/Backgroound\ Picture.png) no-repeat center/cover;
     position: relative;
     height: 500px;
     margin-bottom: 150px;
@@ -35,7 +35,7 @@
     margin: 10px 10px 10px 10px;
 }
 .podarok{
-    background: url(7.png) no-repeat center/cover;
+    background: url(/image/7.png) no-repeat center/cover;
     height: 500px;
     color: white;
 }
@@ -60,7 +60,7 @@
 
 
 .innopolis_info8{
-    background:url(7.png) no-repeat center/cover;
+    background:url(/image/7.png) no-repeat center/cover;
     border: 1px solid rgb(202, 112, 112);
     margin-top: 100px;  
    height: 500px;
@@ -121,7 +121,7 @@ margin-left: 100px;
 
 
   .innopolis_info9 {
-    background:url(7.png) no-repeat center/cover;
+    background:url(/image/7.png) no-repeat center/cover;
     border: 1px solid rgb(202, 112, 112);
     margin-top: 100px;  
    height: 700px;
