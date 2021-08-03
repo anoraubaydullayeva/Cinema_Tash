@@ -181,13 +181,202 @@ footer a{
 }
 
 
+.formal{
+    border: none;
+    width: 767px;
+    height: 527px;
+    margin: 43px 183px 61px 174px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 8px 9px 39px rgb(185, 185, 185, 0.37);
+}
+
+.formal img{
+    margin-left: 27px;
+
+}
+
+.img-back{
+   background:url(/image/kino.png)no-repeat center/cover;
+   width: 414px;
+   height: 527px;
+   border-radius: 20px;
+
+}
+
+
+.tx-form {
+    font-size: 25px;
+    color: #A3CC40;
+    text-align: center;
+    width: 350px;
+      margin-top: 31px;
+
+}
+
+
+.party_form{
+    margin-left: -27px;
+}
+
+.full_name{
+    color: #A1A1A1;
+    width: 314px;
+    height: 40px;
+    outline: none;
+    background:  #DEDEDE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15.56px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.option_form{
+    width: 344px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    margin-top: 33px;
+    outline: none;
+
+}
+    
+.full_name2{
+    color: #A1A1A1;
+    width: 314px;
+    height: 40px;
+    outline: none;
+    background:  #DEDEDE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15.56px;
+    padding-right: 15px;
+    padding-bottom: 87px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.chek{
+    display: flex;
+    margin: 28px;
+}
+
+.chek p{
+    margin-left: 6px;
+    font-size: 12px;
+}
 
 
 
+.bt1{
+    border: none;
+    
+    padding: 15.87px 30.92px 15.13px 32.59px;
+    width: 280.40px;
+    height: 57px;
+    background: #A3CC40;
+    border-radius: 6px;
+    color: white;
+    font-size: 28px;
+
+}
+ .button{
+     display: flex;
+     justify-content: flex-start;
+     margin-top: 46px;
+ }
 
 
+.table_header{
+    width: 849px;
+ border-radius: 90px;
+margin: 50px 50px 50px 50px;
+
+}
+
+.table_header tr{
+    
+   background: #373737;
+    height: 45px; ;
+}
+
+.janr{
+    text-align: start;
+
+}
+
+.name_film {
+    text-align: start;
+}
 
 
+.head_tb th{
+   background:#A3CC40; 
+   border: none;
+
+}
+
+#table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+#table tr:nth-child(even){
+    background-color: #373737;
+}
+
+#table tr {
+    height: 50px;
+
+}
+
+
+#table tr:nth-child(odd){
+background-color: #4D4C4F;
+font-size: 14px;
+
+}
+
+#table th{
+    background-color: #A3CC40;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.chek5 {
+    width: 80px;
+    text-align: center;
+}
+.film__img{
+    width: 33.33333%;
+    height: 450px;
+    margin: auto;
+    position: relative;
+}
+.film__img img{
+    width: 100%;
+    height: 100%;
+
+}
+.film__m{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 22, 22, 0.8);
+}
 
 
 
