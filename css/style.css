@@ -1,40 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.menu_bar{
+
+.menu_bar {
     display: inline-block;
     width: 200px;
     text-align: center;
-    
+
 }
-.party{
+
+.party {
     display: flex;
 }
-.party2{
+
+.party2 {
     display: flex;
 }
-.head2{
+
+.head2 {
     background: url(/image/Backgroound\ Picture.png) no-repeat center/cover;
     position: relative;
     height: 500px;
     margin-bottom: 150px;
 }
-.head1{
-    
-   display: flex;
+
+.head1 {
+
+    display: flex;
 }
-.menu{
+
+.menu {
     margin-left: 80px;
 }
-.menu a{
+
+.menu a {
     color: white;
 }
 
-.img{
+.img {
     margin: 10px 10px 10px 10px;
 }
-.podarok{
+
+.podarok {
     background: url(/image/7.png) no-repeat center/cover;
     height: 500px;
     color: white;
@@ -42,96 +50,103 @@
 
 
 
-.innopolis_info7{
+.innopolis_info7 {
     border: 1px solid white;
     width: 327px;
     background: white;
     text-align: center;
     margin-left: 800px;
-    color: rgb(8, 8,8);
+    color: rgb(8, 8, 8);
     position: absolute;
-    bottom:  -80px;
-     right: 0;
-     border-radius: 10px;
+    bottom: -80px;
+    right: 0;
+    border-radius: 10px;
 
 }
 
 
 
 
-.innopolis_info8{
-    background:url(/image/7.png) no-repeat center/cover;
+.innopolis_info8 {
+    background: url(/image/7.png) no-repeat center/cover;
     border: 1px solid rgb(202, 112, 112);
-    margin-top: 100px;  
-   height: 500px;
-   padding-top: 100px;
-position: relative;
-    color:  rgb(8, 8, 8);
+    margin-top: 100px;
+    height: 500px;
+    padding-top: 100px;
+    position: relative;
+    color: rgb(8, 8, 8);
 
 }
-.info__text{
+
+.info__text {
     width: 50%;
     float: right;
     color: white;
     text-align: end;
 }
-.poodarok{
-position: absolute;
-top: -100px;
-border-radius: 100%;
-margin-left: 100px;
+
+.poodarok {
+    position: absolute;
+    top: -100px;
+    border-radius: 100%;
+    margin-left: 100px;
 }
-  .button {
+
+.button {
     position: relative;
     background-color: #A3CC40;
     color: white;
-  }
-  .card{
-      width: 245px;
-      height: 331px;
-      position: relative;
-      display: flex;
-      text-align: center;
-      align-items: center;
-  }
-  .card__img {
-      width: 100%;
-      height: 100%;
-  }
-  .card__hover{
-      position: absolute;
-      color: white;
+}
+
+.card {
+    width: 245px;
+    height: 331px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+}
+
+.card__hover {
+    position: absolute;
+    color: white;
     font-size: 20px;
     font-weight: 600;
-    background:  #A3CC40CC;
-      clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%); 
-      width: 99%; 
-      padding-top: 70px;
-      height: 153px;
-      overflow: hidden;
-      border-radius: 10px;
-      bottom: 7px;
-  }
-  .card__box{
-      display: flex;
-      justify-content: space-around;
-  }
+    background: #A3CC40CC;
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+    width: 99%;
+    padding-top: 70px;
+    height: 153px;
+    overflow: hidden;
+    border-radius: 10px;
+    bottom: 7px;
+}
+
+.card__box {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
 
-  .innopolis_info9 {
-    background:url(/image/7.png) no-repeat center/cover;
+.innopolis_info9 {
+    background: url(/image/7.png) no-repeat center/cover;
     border: 1px solid rgb(202, 112, 112);
-    margin-top: 100px;  
-   height: 700px;
-   padding-top: 100px;
-position: relative;
-    color:  white;
+    margin-top: 100px;
+    height: 700px;
+    padding-top: 100px;
+    position: relative;
+    color: white;
 
 }
 
-.photo1{
+.photo1 {
     display: inline-block;
     background-color: yellowgreen;
     color: yellowgreen;
@@ -140,7 +155,8 @@ position: relative;
     border-radius: 9px;
     margin: 50px;
 }
-.photo1 img{
+
+.photo1 img {
     width: 100%;
 }
 
@@ -154,19 +170,20 @@ position: relative;
     margin: 50px;
 }
 
-footer{
+footer {
     background: #A3CC40;
     color: white;
     padding: 50px;
 }
+
 .innopolis3 {
-  display: inline-block;
+    display: inline-block;
     width: 20%;
-    
+
 }
 
 .text2 {
-margin-top: 25px;
+    margin-top: 25px;
 }
 
 
@@ -176,12 +193,13 @@ margin-top: 25px;
     height: 26px;
     margin: 0 50px;
 }
-footer a{
+
+footer a {
     color: white;
 }
 
 
-.formal{
+.formal {
     border: none;
     width: 767px;
     height: 527px;
@@ -191,16 +209,16 @@ footer a{
     box-shadow: 8px 9px 39px rgb(185, 185, 185, 0.37);
 }
 
-.formal img{
+.formal img {
     margin-left: 27px;
 
 }
 
-.img-back{
-   background:url(/image/kino.png)no-repeat center/cover;
-   width: 414px;
-   height: 527px;
-   border-radius: 20px;
+.img-back {
+    background: url(/image/kino.png)no-repeat center/cover;
+    width: 414px;
+    height: 527px;
+    border-radius: 20px;
 
 }
 
@@ -210,21 +228,21 @@ footer a{
     color: #A3CC40;
     text-align: center;
     width: 350px;
-      margin-top: 31px;
+    margin-top: 31px;
 
 }
 
 
-.party_form{
+.party_form {
     margin-left: -27px;
 }
 
-.full_name{
+.full_name {
     color: #A1A1A1;
     width: 314px;
     height: 40px;
     outline: none;
-    background:  #DEDEDE;
+    background: #DEDEDE;
     border: none;
     border-radius: 5px;
     padding-left: 15.56px;
@@ -232,7 +250,7 @@ footer a{
     margin-top: 20px;
 }
 
-.option_form{
+.option_form {
     width: 344px;
     height: 40px;
     padding-left: 15.56px;
@@ -244,13 +262,13 @@ footer a{
     outline: none;
 
 }
-    
-.full_name2{
+
+.full_name2 {
     color: #A1A1A1;
     width: 314px;
     height: 40px;
     outline: none;
-    background:  #DEDEDE;
+    background: #DEDEDE;
     border: none;
     border-radius: 5px;
     padding-left: 15.56px;
@@ -261,21 +279,21 @@ footer a{
     align-items: flex-start;
 }
 
-.chek{
+.chek {
     display: flex;
     margin: 28px;
 }
 
-.chek p{
+.chek p {
     margin-left: 6px;
     font-size: 12px;
 }
 
 
 
-.bt1{
+.bt1 {
     border: none;
-    
+
     padding: 15.87px 30.92px 15.13px 32.59px;
     width: 280.40px;
     height: 57px;
@@ -285,27 +303,29 @@ footer a{
     font-size: 28px;
 
 }
- .button{
-     display: flex;
-     justify-content: flex-start;
-     margin-top: 46px;
- }
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 46px;
+}
 
 
-.table_header{
+.table_header {
     width: 849px;
- border-radius: 90px;
-margin: 50px 50px 50px 50px;
+    border-radius: 90px;
+    margin: 50px 50px 50px 50px;
 
 }
 
-.table_header tr{
-    
-   background: #373737;
-    height: 45px; ;
+.table_header tr {
+
+    background: #373737;
+    height: 45px;
+    ;
 }
 
-.janr{
+.janr {
     text-align: start;
 
 }
@@ -315,9 +335,9 @@ margin: 50px 50px 50px 50px;
 }
 
 
-.head_tb th{
-   background:#A3CC40; 
-   border: none;
+.head_tb th {
+    background: #A3CC40;
+    border: none;
 
 }
 
@@ -330,7 +350,7 @@ margin: 50px 50px 50px 50px;
     color: white;
 }
 
-#table tr:nth-child(even){
+#table tr:nth-child(even) {
     background-color: #373737;
 }
 
@@ -340,13 +360,13 @@ margin: 50px 50px 50px 50px;
 }
 
 
-#table tr:nth-child(odd){
-background-color: #4D4C4F;
-font-size: 14px;
+#table tr:nth-child(odd) {
+    background-color: #4D4C4F;
+    font-size: 14px;
 
 }
 
-#table th{
+#table th {
     background-color: #A3CC40;
     color: white;
     font-size: 20px;
@@ -358,18 +378,21 @@ font-size: 14px;
     width: 80px;
     text-align: center;
 }
-.film__img{
+
+.film__img {
     width: 33.33333%;
     height: 450px;
     margin: auto;
     position: relative;
 }
-.film__img img{
+
+.film__img img {
     width: 100%;
     height: 100%;
 
 }
-.film__m{
+
+.film__m {
     position: absolute;
     top: 0;
     left: 0;
@@ -377,9 +400,3 @@ font-size: 14px;
     height: 100%;
     background: rgba(22, 22, 22, 0.8);
 }
-
-
-
-
-
-
