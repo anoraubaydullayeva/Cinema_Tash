@@ -2,54 +2,40 @@
     margin: 0;
     padding: 0;
 }
-
 .menu_bar {
     display: inline-block;
     width: 200px;
     text-align: center;
-
 }
-
 .party {
     display: flex;
 }
-
 .party2 {
     display: flex;
 }
-
 .head2 {
     background: url(/image/Backgroound\ Picture.png) no-repeat center/cover;
     position: relative;
     height: 500px;
     margin-bottom: 150px;
 }
-
 .head1 {
-
     display: flex;
 }
-
 .menu {
     margin-left: 80px;
 }
-
 .menu a {
     color: white;
 }
-
 .img {
     margin: 10px 10px 10px 10px;
 }
-
-.podarok {
+.present {
     background: url(/image/7.png) no-repeat center/cover;
     height: 500px;
     color: white;
 }
-
-
-
 .innopolis_info7 {
     border: 1px solid white;
     width: 327px;
@@ -61,12 +47,7 @@
     bottom: -80px;
     right: 0;
     border-radius: 10px;
-
 }
-
-
-
-
 .innopolis_info8 {
     background: url(/image/7.png) no-repeat center/cover;
     border: 1px solid rgb(202, 112, 112);
@@ -75,29 +56,24 @@
     padding-top: 100px;
     position: relative;
     color: rgb(8, 8, 8);
-
 }
-
 .info__text {
     width: 50%;
     float: right;
     color: white;
     text-align: end;
 }
-
-.poodarok {
+.present {
     position: absolute;
     top: -100px;
     border-radius: 100%;
     margin-left: 100px;
 }
-
 .button {
-    position: relative;
+   padding: 7px;
     background-color: #A3CC40;
     color: white;
 }
-
 .card {
     width: 245px;
     height: 331px;
@@ -106,12 +82,10 @@
     text-align: center;
     align-items: center;
 }
-
 .card__img {
     width: 100%;
     height: 100%;
 }
-
 .card__hover {
     position: absolute;
     color: white;
@@ -126,15 +100,10 @@
     border-radius: 10px;
     bottom: 7px;
 }
-
 .card__box {
     display: flex;
     justify-content: space-around;
 }
-
-
-
-
 .innopolis_info9 {
     background: url(/image/7.png) no-repeat center/cover;
     border: 1px solid rgb(202, 112, 112);
@@ -143,9 +112,7 @@
     padding-top: 100px;
     position: relative;
     color: white;
-
 }
-
 .photo1 {
     display: inline-block;
     background-color: yellowgreen;
@@ -155,50 +122,35 @@
     border-radius: 9px;
     margin: 50px;
 }
-
 .photo1 img {
     width: 100%;
 }
-
-
-
-
-
 .karta {
     width: 973px;
     height: 421px;
     margin: 50px;
 }
-
 footer {
     background: #A3CC40;
     color: white;
     padding: 50px;
 }
-
 .innopolis3 {
     display: inline-block;
     width: 20%;
-
 }
-
 .text2 {
     margin-top: 25px;
 }
-
-
 .text3 {
     display: inline-block;
     width: 20%;
     height: 26px;
     margin: 0 50px;
 }
-
 footer a {
     color: white;
 }
-
-
 .formal {
     border: none;
     width: 767px;
@@ -208,35 +160,25 @@ footer a {
     display: flex;
     box-shadow: 8px 9px 39px rgb(185, 185, 185, 0.37);
 }
-
 .formal img {
     margin-left: 27px;
-
 }
-
 .img-back {
     background: url(/image/kino.png)no-repeat center/cover;
     width: 414px;
     height: 527px;
     border-radius: 20px;
-
 }
-
-
 .tx-form {
     font-size: 25px;
     color: #A3CC40;
     text-align: center;
     width: 350px;
     margin-top: 31px;
-
 }
-
-
 .party_form {
     margin-left: -27px;
 }
-
 .full_name {
     color: #A1A1A1;
     width: 314px;
@@ -249,7 +191,6 @@ footer a {
     padding-right: 15px;
     margin-top: 20px;
 }
-
 .option_form {
     width: 344px;
     height: 40px;
@@ -262,7 +203,6 @@ footer a {
     outline: none;
 
 }
-
 .full_name2 {
     color: #A1A1A1;
     width: 314px;
@@ -278,22 +218,16 @@ footer a {
     display: flex;
     align-items: flex-start;
 }
-
 .chek {
     display: flex;
     margin: 28px;
 }
-
 .chek p {
     margin-left: 6px;
     font-size: 12px;
 }
-
-
-
 .bt1 {
     border: none;
-
     padding: 15.87px 30.92px 15.13px 32.59px;
     width: 280.40px;
     height: 57px;
@@ -301,46 +235,32 @@ footer a {
     border-radius: 6px;
     color: white;
     font-size: 28px;
-
+    margin-top: 15px;
+   margin-left: 30px;
 }
-
-.button {
-    display: flex;
-    justify-content: flex-start;
+.send {
     margin-top: 46px;
+    width: 100%;
 }
-
-
 .table_header {
     width: 849px;
     border-radius: 90px;
     margin: 50px 50px 50px 50px;
-
 }
-
 .table_header tr {
-
     background: #373737;
     height: 45px;
-    ;
 }
-
 .janr {
     text-align: start;
-
 }
-
 .name_film {
     text-align: start;
 }
-
-
 .head_tb th {
     background: #A3CC40;
     border: none;
-
 }
-
 #table {
     border-collapse: collapse;
     width: 80%;
@@ -349,49 +269,36 @@ footer a {
     overflow: hidden;
     color: white;
 }
-
 #table tr:nth-child(even) {
     background-color: #373737;
 }
-
 #table tr {
     height: 50px;
-
 }
-
-
 #table tr:nth-child(odd) {
     background-color: #4D4C4F;
     font-size: 14px;
-
 }
-
 #table th {
     background-color: #A3CC40;
     color: white;
     font-size: 20px;
     font-weight: 600;
 }
-
-
 .chek5 {
     width: 80px;
     text-align: center;
 }
-
 .film__img {
     width: 33.33333%;
     height: 450px;
     margin: auto;
     position: relative;
 }
-
 .film__img img {
     width: 100%;
     height: 100%;
-
 }
-
 .film__m {
     position: absolute;
     top: 0;
