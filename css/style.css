@@ -341,15 +341,15 @@ footer a {
 }
 
 .film__img {
-    width: 33.33333%;
-    height: 450px;
+    width: 33.33333%; 
     margin: auto;
     position: relative;
+  
 }
 
 .film__img img {
-    display: flex;
     height: 100%;
+    width: 100%;
 }
 
 .film__m {
@@ -360,10 +360,9 @@ footer a {
     height: 100%;
     background: rgba(22, 22, 22, 0.8);
     color: white;
-
 }
 
-.film__m h1,
+.film__m h2,
 p {
     margin: 20px;
 }
@@ -373,7 +372,7 @@ p {
 
 .container {
     max-width: 1124px;
-    padding: 0 137px;
+    padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
 }
