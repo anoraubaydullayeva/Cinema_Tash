@@ -1,0 +1,24 @@
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu > a{
+    color: red;
+}
+
+.menu__list-item .menu__list-item{ 
+     color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
