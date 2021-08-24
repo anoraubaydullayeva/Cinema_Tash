@@ -1,24 +1,63 @@
-a{
-    font-size: 30px;
-    text-decoration: none;
+@font-face{
+    font-family: 'IBMlexSans';
+    src: url('../../Cinema_Tash/fonts/IBMPlexSans-Bold.ttf');
+    font-weight: 700;
 }
 
-.menu > a{
+@font-face{
+    font-family: 'IBMlexSans';
+    src: url('../../Cinema_Tash/fonts/IBMPlexSans-Regular.ttf');
+    font-weight: 400;
+}
+
+
+@font-face{
+    font-family: 'IBMlexSans';
+    src: url('../../Cinema_Tash/fonts/IBMPlexSans-Light.ttf');
+    font-weight: 300;
+}
+body{
+    font-family: 'IBMlexSans', sans-serif ;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.green{
+    color: green;
+}
+
+.parent{
+    border-bottom: 10px solid red;
+}
+
+#parent{
+    border-bottom: 10px solid green;
+}
+
+.text{
+    /*inherit initial unset*/
+    border-bottom: inherit;
+}
+
+.parent2 .class2{
     color: red;
 }
 
-.menu__list-item .menu__list-item{ 
-     color: pink;
+.class1{
+    font-style: 30px;
 }
 
 
+#id1{
+    color: green;
+}
 
+.class1{
+    color: rgb(225, 0, 255) !important;
+}
 
-
-
-
-
-
-
+.text1{
+    color: cyan;
+}
 
 

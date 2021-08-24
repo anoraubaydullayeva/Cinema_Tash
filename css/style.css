@@ -62,7 +62,20 @@ body{
 .hero{
    background: url(../image/Backgroound_Picture.png)no-repeat center/cover;
    height: 700px;
-   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 99%);
+   position: relative;
+   /* clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 99%); */
+}
+
+.hero::after{
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 50px solid  #fff;
+    border-right: 50px solid #fff;
+    border: 50px solid transparent;
+    position: absolute;
+    bottom: 0;
+    z-index: auto;
 }
 
 .header-container {
@@ -84,6 +97,10 @@ body{
     
 } 
 
+.li1{
+    color: white;
+}
+
 .menu a {
     color: white;
     text-decoration: none;
@@ -98,6 +115,7 @@ body{
   font-size: 12px;
   line-height: 15,6px;
   padding-bottom: 15px;
+  color: white;
 }
 
 .menu_list{
@@ -108,8 +126,60 @@ body{
   padding: auto;
   font-size: 12px;
   line-height: 15,6px; 
-  transition: 0.3s;
+  color: white;
+}
 
+.menu_list a:hover{
+    color: #A3CC40;
+}
+
+.menu__list a:hover{
+    color: #A3CC40;
+}
+
+.block01__lng-wrap{
+    position: relative;
+}
+
+.block01__lng{
+    color: white;
+    font-style: 12px;
+    text-decoration: none;
+}
+
+.block01__lng svg{
+    fill: #fff;
+    transition: .2s;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block01__dropdown{
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s ;
+    background: #666;
+    position: absolute;
+}
+
+.block01__dropdown a{
+    display: table;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.block01__lng-wrap:hover .block01__dropdown {
+      visibility: visible;
+      opacity: 1;
+      transition: .2s;
+      background: #666;
+      position: absolute;
+}
+
+.block01__lng-wrap:hover+.block01__lng svg{
+    transform: rotate(180deg);
 }
 
 .order{
@@ -131,6 +201,7 @@ body{
    color: white;
    font-size: 41px;
    font-weight: 400;
+   margin-bottom: 141px;
 }
 
 .welcome {
@@ -139,13 +210,13 @@ body{
     background: white;
     text-align: center;
     color: rgb(8, 8, 8);
-    position: absolute;
     bottom: -75px;
     right: 126px;
     border-radius: 10px;
     box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
     font-size: 11px;
     padding: 30px 47px;
+    margin-left: auto;
 }
 
 .welcome p{
@@ -171,7 +242,21 @@ body{
 .section__heading{
     color: #A3CC40;
     font-size: 48px;
-   margin-bottom: 84px;
+    margin-bottom: 84px;
+    font-weight: 500;
+}
+
+.section_heading{
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-bottom: 84px;
+    font-family: 'IBM Plex Sans';  
+    font-weight: 500;
+}
+
+.section_text{
+    font-family: 'IBM Plex Sans';
+    font-size: 11px;
 }
 
 .party {
@@ -267,34 +352,30 @@ body{
 
 
 .film__text{
+    font-family: 'IBM Plex Sans';
     text-align: center;
     font-size: 11px;
-    line-height:  14,3px;
   }
 
 .reward {
     background: url(../image/7.png) no-repeat center/cover;
     border: 1px solid rgb(202, 112, 112);
     margin-top: 100px;
-    height: 500px;
-    padding-top: 100px;
+    width: 1171px;
+    height: 685px;
+    padding-top: 78px;
     position: relative;
     color: rgb(8, 8, 8);
-}
-
-.present {
-    background: url(../image/7.png) no-repeat center/cover;
-    height: 500px;
-    color: white;
+    clip-path: polygon(0 19%, 100% 4%, 100% 76%, 0 95%); 
+   
 }
 
 .present {
     position: absolute;
-    top: -100px;
-    border-radius: 100%;
-    margin-left: 100px;
-    width: 302px;
     height: 303px;
+    width: 302px; 
+    left: 139px;
+    border-radius: 100%;
 }
 
 .info__text {
@@ -324,7 +405,7 @@ body{
 }
 
 .film{
-   margin-top: 162px;
+   margin-top: -12px;
 }
 
 .film__img {
@@ -395,8 +476,8 @@ p {
 }
 
 #reviews{
-    background: url(../image/10.png) no-repeat center/cover;
-    border: 1px solid rgb(202, 112, 112);
+    background: url(../image/black__photo.png) no-repeat center/cover;
+    border: 1px solid white;
     padding: 40px;
 }
 
@@ -597,3 +678,4 @@ ul{
     margin-left: 6px;
     font-size: 12px;
 }
+
