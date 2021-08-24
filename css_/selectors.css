@@ -1,63 +1,84 @@
-@font-face{
+@font-face {
     font-family: 'IBMlexSans';
     src: url('../../Cinema_Tash/fonts/IBMPlexSans-Bold.ttf');
     font-weight: 700;
 }
 
-@font-face{
+@font-face {
     font-family: 'IBMlexSans';
     src: url('../../Cinema_Tash/fonts/IBMPlexSans-Regular.ttf');
     font-weight: 400;
 }
 
 
-@font-face{
+@font-face {
     font-family: 'IBMlexSans';
     src: url('../../Cinema_Tash/fonts/IBMPlexSans-Light.ttf');
     font-weight: 300;
 }
-body{
-    font-family: 'IBMlexSans', sans-serif ;
-    font-weight: 300;
-    line-height: 1;
+
+h1 {
+    color: springgreen;
+    font-size: 45px;
 }
 
-.green{
-    color: green;
-}
-
-.parent{
-    border-bottom: 10px solid red;
-}
-
-#parent{
-    border-bottom: 10px solid green;
+.text_1 {
+    color:black !important;
 }
 
 .text{
-    /*inherit initial unset*/
-    border-bottom: inherit;
-}
-
-.parent2 .class2{
     color: red;
 }
 
-.class1{
-    font-style: 30px;
+.text {
+    color: black;
+    border: inherit;
+    font-size: inherit;
 }
 
-
-#id1{
-    color: green;
+.parent {
+    border: 2px solid red;
+    font-size: 22px;
 }
 
-.class1{
-    color: rgb(225, 0, 255) !important;
+.text_1 {
+    color: rgb(0, 6, 8);
 }
 
-.text1{
-    color: cyan;
+.favourite{
+    color: springgreen!important;
 }
 
+ul#summer-drinks li {
+    font-weight: normal;
+    font-size: 30px;
+    color: black;
+}
 
+.favourite{
+    color: springgreen;
+}
+
+p{
+    color: hotpink;
+}
+
+.text{
+    color: black;
+}
+
+#tex{
+    color: lime;
+}
+
+.t1 {
+    color: tomato;
+}
+
+.t2{
+    color: coral;
+}
+
+#texts{
+    color: springgreen;
+}
