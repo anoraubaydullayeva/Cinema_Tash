@@ -1,0 +1,986 @@
+/* Fonts */
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('./fonts/IBMPlexSans-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('./fonts/IBMPlexSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('./fonts/IBMPlexSans-Bold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('./fonts/IBMPlexSans-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('./fonts/IBMPlexSans-SemiBold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('./fonts/IBMPlexSans-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* fonts end */
+
+/* Global properties */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'IBM-Plex-Sans';
+}
+
+/* Global end*/
+
+/*Header*/
+
+.blok {
+    background-image: url(./image/Backgroound_Picture.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 81%, 0% 100%);
+}
+
+/* 
+.blok::after{
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 50px solid  #fff;
+    border-right: 50px solid #fff;
+    border: 50px solid transparent;
+    position: absolute;
+    bottom: 296px;
+    z-index: auto;
+} */
+
+.header {
+    width: 100%;
+    height: 689px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.menu {
+    margin: 47px 0 0 7px;
+}
+
+.blok__coll {
+
+    padding: 51px 38px 0 74px;
+}
+
+
+.blok__call {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu__list {
+    font-size: 12px;
+}
+
+.blok__tel,
+.blok__title,
+.blok__address,
+.blok__call {
+    margin-right: 50px;
+}
+
+.blok__call {
+    background: #fff;
+    padding: 0px 9px 4px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    margin-top: -2px;
+}
+
+.blok__call span {
+    color: #333;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.blok__call svg {
+    fill: #333;
+    display: inline-block;
+}
+
+.block01__lng-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.block01__lng {
+    color: #fff;
+    font-size: 12px;
+}
+
+.block01__lng svg {
+    fill: #fff;
+    transition: 0.2s;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.blok__call:hover {
+    border-color: #fff;
+    background: #A3CC40;
+}
+
+.blok__call:hover svg {
+    fill: #fff;
+}
+
+.blok__call__disabled {
+    cursor: not-allowed;
+}
+
+.blok__call:hover span {
+    color: #fff;
+}
+
+.block01__dropdown {
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s;
+    background: #666;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(100%);
+}
+
+.block01__dropdown a {
+    display: table;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.block01__lng-wrap:hover .block01__dropdown {
+    visibility: visible;
+    opacity: 1;
+}
+
+.block01__lng-wrap:hover .block01__lng svg {
+    transform: rotate(180deg);
+}
+
+.blok__ul li {
+    display: inline-block;
+    margin-right: 40px;
+    padding-top: 14px;
+}
+
+.blok__main {
+    text-align: center;
+    margin-top: 125px;
+    margin-left: -84px;
+}
+
+.blok__h1 {
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 88px;
+    letter-spacing: 0em;
+    color: #fff;
+    margin-top: 1px;
+}
+
+.blok__h2 {
+    color: white;
+    font-size: 41px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.blok__nav {
+    font-size: 12px;
+}
+
+.blok__tel {
+    left: 1px;
+}
+
+.welcome {
+    position: relative;
+    border: 1px solid white;
+    background: white;
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
+    padding: 30px 47px;
+    margin-left: 911px;
+    top: -164px;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+    vertical-align: text-top;
+    max-width: 426px;
+}
+
+.welcome__text {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.welcome__title {
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    line-height: 43px;
+}
+
+/* haeder end */
+
+/* Почему мы */
+#whyus {
+    font-size: 28px;
+    margin-bottom: 84px;
+    margin-left: 109px;
+}
+
+.section__title {
+    color: #A3CC40;
+    font-size: 48px;
+    margin-top: -216px;
+    font-weight: 500;
+    margin-left: -5px;
+}
+
+.section__heading {
+    color: #A3CC40;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.section_text {
+    font-size: 11px;
+}
+
+.content-text {
+    align-items: center;
+}
+
+.party {
+    display: flex;
+    margin-top: 12px;
+}
+
+.party2 {
+    display: flex;
+    margin-top: -17px;
+}
+
+.convenience {
+    margin-right: 55px;
+    margin-top: 71px;
+    width: 245px;
+    text-align: center;
+}
+
+.img {
+    width: 245px;
+}
+
+.menu_bar {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14.3px;
+}
+
+.why_card_text {
+    margin: 28px 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: Center;
+}
+
+/* end Почему мы */
+
+/*  table */
+
+.film {
+    margin-top: 167px;
+    margin-left: 108px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 849px;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 82px;
+}
+
+.table th {
+    background-color: #A3CC40;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.head_tb th {
+    background: #A3CC40;
+    border: none;
+}
+
+.table__row {
+    width: 80px;
+    line-height: 18.2px;
+    height: 45px;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.table__cell-head {
+    color: white;
+    width: 236px;
+}
+
+.table__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.table__film {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+.table_header {
+    width: 849px;
+    border-radius: 90px;
+    margin: 50px 50px 50px 50px;
+}
+
+
+.table_header tr {
+    background: #373737;
+    height: 45px;
+}
+
+.two {
+    background-color: #373737;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #4D4C4F;
+}
+
+.film__text {
+    text-align: center;
+    font-size: 11px;
+    margin-left: -193px;
+    margin-top: 30px;
+}
+
+/*  table end */
+
+/*  Подарок каждому! */
+
+.present__for_everyone {
+    background: url(./image/7.png) no-repeat center/cover;
+    max-width: 100%;
+    height: 658px;
+    padding: 0 139px;
+    margin-top: 21px;
+    clip-path: polygon(0% 30%, 100% 1%, 100% 77%, 0% 100%);
+}
+
+.present {
+    align-items: center;
+    height: 275px;
+    width: 276px;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: -653px;
+    left: 486px;
+}
+
+.present__text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: right;
+    width: 548px;
+    margin: 11px 0 29px 45px;
+}
+
+
+.info__text {
+    width: 50%;
+    float: right;
+    color: white;
+    text-align: end;
+}
+
+.section_heading {
+    margin-top: -10px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.info__text {
+    margin-right: 208px;
+    margin-top: 175px;
+    font-size: 11px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.button {
+    padding: 0px 38px 14px;
+    background-color: #A3CC40;
+    color: white;
+    border-radius: 6px;
+}
+
+.button__text {
+    margin: 0 0 0 0;
+}
+
+/* Подарок каждому! end */
+
+/* Фильмы */
+
+.film__box {
+    margin-left: 124px;
+}
+
+.cinema__heading {
+    color: #A3CC40;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 36px;
+}
+
+.section__text {
+    font-size: 11px;
+}
+
+.film__img {
+    width: 283px;
+    position: relative;
+}
+
+.film__img :hover {
+    background: #90D23D66;
+    color: white;
+}
+
+.film__img img {
+    display: flex;
+    width: 100%;
+    height: 283px;
+}
+
+.film__p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 22, 22, 0.8);
+    color: white;
+}
+
+.film__cards {
+    display: flex;
+}
+
+.cinema__title {
+    margin: 20px;
+}
+
+.cinema__text {
+    color: transparent;
+    font-size: 11px;
+    margin-bottom: 64px;
+    margin-top: 26px;
+}
+
+.section__commit {
+    font-size: 11px;
+    margin-bottom: 64px;
+    margin-top: 26px;
+}
+
+/* Фильмы end */
+
+/* goods */
+
+.goods {
+    padding: 40px;
+    margin: 40px 0 0 85px;
+    float: none;
+}
+
+.goods__text {
+    margin: -13px 0 58px 124px;
+}
+
+.card__box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -132px;
+}
+
+.card {
+    Width: 245px;
+    Height: 331px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.card_two {
+    Width: 245px;
+    Height: 331px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: -150px;
+}
+
+.card_three {
+    Width: 245px;
+    Height: 331px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: -150px;
+}
+
+.card__img {
+    Width: 295px;
+    Height: 331px;
+}
+
+.card__hover {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: #A3CC40CC;
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+    width: 99%;
+    padding-top: 70px;
+    height: 153px;
+    overflow: hidden;
+    border-radius: 10px;
+    bottom: 7px;
+    margin: 0 0 0 1px;
+}
+
+/* goods end */
+
+/* Отзывы */
+
+.reviews__heading {
+    color: #A3CC40;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 166px 0 0 124px;
+}
+
+.reviews__text {
+    font-size: 11px;
+    color: white;
+    margin: -14px 0 0 126px;
+}
+
+#reviews {
+    background: url(/Cinema_Tash/image/black__photo.png) no-repeat center/cover;
+    border: 1px solid white;
+    Height: 792px;
+    padding: 40px;
+    margin-top: -34px;
+    clip-path: polygon(0 22%, 100% 6%, 100% 90%, 0% 100%);
+}
+
+.section__photo {
+    display: flex;
+    margin-left: 127px;
+}
+
+.photo__middle {
+    display: inline-block;
+    background-color: yellowgreen;
+    color: yellowgreen;
+    width: 245.56px;
+    height: 332px;
+    color: white;
+    border-radius: 9px;
+    margin: 73px 89px 0 0px;
+}
+
+.customers__1mg {
+    width: 245.56px;
+    height: 178.54px;
+}
+
+.photo {
+    display: inline-block;
+    background-color: yellowgreen;
+    color: yellowgreen;
+    width: 210px;
+    height: 284px;
+    color: white;
+    border-radius: 9px;
+    margin: 100px 89px 0 0px;
+}
+
+.photo img {
+    width: 210px;
+    height: 152.73px;
+    display: flex;
+}
+
+.photo h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 14px 22px 0 16px;
+}
+
+.photo p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+    vertical-align: text-top;
+    width: 171px;
+    height: 52px;
+    margin: -7px 22px 0 17px;
+}
+
+.photo__middle h4 {
+    width: 220.4px;
+    height: 23.02px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 14px 8px 0 17px;
+}
+
+.photo__middle p {
+    width: 220.4px;
+    height: 42.03px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: -2px 9px 0 17px;
+}
+
+/* Отзывы end */
+
+/* Обратная связь */
+
+.form__section {
+    display: flex;
+    padding: 40px;
+    margin: 2px 0 0 481px;
+}
+
+.img_back {
+    background: url(./image/kino.png)no-repeat center/cover;
+    width: 414px;
+    height: 527px;
+    border-radius: 20px 0 0 20px;
+}
+
+.img_back img {
+    width: 100%;
+    height: 100%;
+}
+
+.tx-form {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 33px 92px 0 0;
+}
+
+form {
+    font-size: 25px;
+    color: #A3CC40;
+    text-align: center;
+    width: 350px;
+    box-shadow: 8px 9px 39px rgba(185, 185, 185, 0.37);
+}
+
+.party_form {
+    margin-left: 1px;
+}
+
+.option_form {
+    width: 344px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    outline: none;
+    margin-left: -74px;
+}
+
+#chek__box {
+    margin-left: -115px;
+    margin-top: 19px;
+}
+
+.comment {
+    resize: none;
+}
+
+.full_name {
+    width: 330px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    outline: none;
+    margin: 19px 0 0 -74px;
+}
+
+.email {
+    width: 330px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    outline: none;
+    margin-left: -75px;
+}
+
+.full_name2 {
+    color: #A1A1A1;
+    width: 314px;
+    height: 40px;
+    outline: none;
+    background: #DEDEDE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15.56px;
+    padding-right: 15px;
+    padding-bottom: 87px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: -34px;
+}
+
+.chek_box {
+    font-size: 11px;
+    color: #333333;
+}
+
+.bt1 {
+    border: none;
+    padding: 15.87px 30.92px 15.13px 32.59px;
+    Width: 344px;
+    Height: 57px;
+    background: #A3CC40;
+    border-radius: 6px;
+    color: white;
+    font-size: 28px;
+    margin-top: 43px;
+    margin-left: -72px;
+}
+
+/* Обратная связь  end*/
+
+/* Map */
+
+.map {
+    Width: 973px;
+    Height: 421px;
+    margin: 22px 0 0px 60px;
+}
+
+/* Map  end*/
+
+/* footer */
+
+.footer {
+    background: #A3CC40;
+    color: white;
+    padding: 50px;
+    height: 362px;
+}
+
+.footer__link {
+    color: white;
+}
+
+.footer__contact {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.innopolis {
+    Width: 161px;
+    Height: 41px;
+    position: relative;
+    margin: 6px 0 11px 75px;
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 75px;
+}
+
+.innopolis__img {
+    height: auto;
+}
+
+img {
+    width: 245px;
+    height: 169px;
+}
+
+#site {
+    margin: 7px 84px 0px 0px;
+}
+
+.site {
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.site__title {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.site__link {
+    color: white;
+    text-decoration: none;
+    bottom: 84px;
+    list-style: none;
+}
+
+#contact {
+    list-style: none;
+    margin: 7px 317px 22px 0;
+}
+
+.contact {
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.contact__title {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.contact__link {
+    color: white;
+    text-decoration: none;
+}
+
+.page {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    margin: 39px 0 0 75px;
+}
+
+ul {
+    list-style: none;
+}
+
+.what {
+    color: #A3CC40;
+}
+
+.chek {
+    display: flex;
+    margin: 28px;
+}
+
+.chek p {
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+.about__us {
+    margin: 25px 0 -74px 74px;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    margin: 113px 0 0 74px;
+}
+
+/* footer end */
