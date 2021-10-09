@@ -1,7 +1,7 @@
 .container {
-    padding: 0 8.625rem;
+    padding: 0 138px;
     margin: 0 auto;
-    max-width: 70.25rem;
+    max-width: 1124px;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,6 @@
     font-weight: 500;
     transition: 0.2s;
     border-bottom: 0.0625rem solid transparent;
-    text-decoration: none;
 }
 
 .link-white:hover {
@@ -25,4 +24,5 @@
 
 .link-white_big {
     text-transform: uppercase;
+    text-decoration: none;
 }
